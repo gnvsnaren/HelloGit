@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_QpongMF3Eeuuu6xluJrmuw" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_mHWGQMF3Eeuuu6xluJrmuw" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
   <bpmn2:process id="HelloGit.NewBP" drools:packageName="org.jbpm" drools:version="1.0" drools:adHoc="false" name="NewBP" isExecutable="true" processType="Public">
     <bpmn2:sequenceFlow id="_4ED7605F-9CA4-44B8-877D-E8BA95348589" sourceRef="_22AC92F0-BE4B-461A-A4CA-C75A3F9C64C1" targetRef="_08C73002-9F5B-4359-B2DF-77C75A1C0F97">
       <bpmn2:extensionElements>
@@ -38,10 +38,10 @@
       <bpmn2:incoming>_728ACF47-9BE3-4A22-BD47-45FB63DDB3B7</bpmn2:incoming>
     </bpmn2:endEvent>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_QpongcF3Eeuuu6xluJrmuw">
-    <bpmndi:BPMNPlane id="_QpongsF3Eeuuu6xluJrmuw" bpmnElement="HelloGit.NewBP">
+  <bpmndi:BPMNDiagram id="_mHWGQcF3Eeuuu6xluJrmuw">
+    <bpmndi:BPMNPlane id="_mHWtUMF3Eeuuu6xluJrmuw" bpmnElement="HelloGit.NewBP">
       <bpmndi:BPMNShape id="shape__85FA0990-6979-4026-8ACB-FB991167ECFD" bpmnElement="_85FA0990-6979-4026-8ACB-FB991167ECFD">
-        <dc:Bounds height="56.0" width="56.0" x="586.0" y="163.0"/>
+        <dc:Bounds height="56.0" width="56.0" x="570.0" y="163.0"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__08C73002-9F5B-4359-B2DF-77C75A1C0F97" bpmnElement="_08C73002-9F5B-4359-B2DF-77C75A1C0F97">
         <dc:Bounds height="102.0" width="154.0" x="323.0" y="140.0"/>
@@ -51,7 +51,7 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="edge_shape__08C73002-9F5B-4359-B2DF-77C75A1C0F97_to_shape__85FA0990-6979-4026-8ACB-FB991167ECFD" bpmnElement="_728ACF47-9BE3-4A22-BD47-45FB63DDB3B7">
         <di:waypoint xsi:type="dc:Point" x="477.0" y="191.0"/>
-        <di:waypoint xsi:type="dc:Point" x="586.0" y="191.0"/>
+        <di:waypoint xsi:type="dc:Point" x="570.0" y="191.0"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="edge_shape__22AC92F0-BE4B-461A-A4CA-C75A3F9C64C1_to_shape__08C73002-9F5B-4359-B2DF-77C75A1C0F97" bpmnElement="_4ED7605F-9CA4-44B8-877D-E8BA95348589">
         <di:waypoint xsi:type="dc:Point" x="243.0" y="191.0"/>
@@ -59,12 +59,12 @@
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_Qpong8F3Eeuuu6xluJrmuw" type="BPSimData">
+  <bpmn2:relationship id="_mHWtUcF3Eeuuu6xluJrmuw" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_08C73002-9F5B-4359-B2DF-77C75A1C0F97" id="_QponhMF3Eeuuu6xluJrmuw">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_08C73002-9F5B-4359-B2DF-77C75A1C0F97" id="_mHWtUsF3Eeuuu6xluJrmuw">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -84,7 +84,7 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_22AC92F0-BE4B-461A-A4CA-C75A3F9C64C1" id="_QponhcF3Eeuuu6xluJrmuw">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_22AC92F0-BE4B-461A-A4CA-C75A3F9C64C1" id="_mHWtU8F3Eeuuu6xluJrmuw">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -94,7 +94,7 @@
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_QpongMF3Eeuuu6xluJrmuw</bpmn2:source>
-    <bpmn2:target>_QpongMF3Eeuuu6xluJrmuw</bpmn2:target>
+    <bpmn2:source>_mHWGQMF3Eeuuu6xluJrmuw</bpmn2:source>
+    <bpmn2:target>_mHWGQMF3Eeuuu6xluJrmuw</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
